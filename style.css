@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(assets/norse-bold.otf);
+}
+
+h1 {
+    font-family: Norse-Bold, sans-serif;
+    font-weight: 150;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
+    height: 100%;
+    width: 100%;
+}
+
+.left-section {
+    background-image: url(assets/leaves-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-section {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.top-of-left {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-of-left {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.odin-box {
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    gap: 5px;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 30%;
+}
+
+.left-footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.left-footer a {
+    color: white;
+}
