@@ -48,7 +48,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
 }
 
 .right-section>* {
@@ -132,6 +132,15 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+input:focus {
+    outline-color: blue;
+
+}
+
+input:invalid {
+    outline-color: red;
 }
 
 .label {
